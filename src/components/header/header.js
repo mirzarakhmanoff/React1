@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import logo from "../assets/logo.svg";
+import { FaBars } from "react-icons/fa6";
 
 function Header() {
   return (
@@ -9,6 +10,7 @@ function Header() {
         <div className="header__nav">
           <div className="logo">
             <img src={logo} alt="" />
+            <FaBars className="burger" />
           </div>
           <div className="items">
             <div className="tabs">

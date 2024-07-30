@@ -12,9 +12,10 @@ header {
   width: 100%;
   background-color: #ddd;
   padding: 10px;
+  flex-shrink: 1;
 }
 .header__nav {
-  width: 1170px;
+  max-width: 1170px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -57,7 +58,9 @@ header {
   color: #fff;
   padding: 5px 15px;
 }
-
+.burger {
+  display: none;
+}
 @media screen and (max-width: 1000px) {
   .items {
     display: none;
@@ -67,6 +70,21 @@ header {
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .header__nav {
+    justify-content: flex-start;
   }
 }

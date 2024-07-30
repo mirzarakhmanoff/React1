@@ -1,5 +1,6 @@
 .service__wrapper {
   display: flex;
+
   gap: 20px;
   margin-bottom: 100px;
 }
@@ -42,10 +43,7 @@
 .service__item:hover {
   background-color: #caa892;
 }
-/* .orange {
-  color: #fff;
-  background-color: #caa892;
-} */
+
 .orange .service__desc {
   color: #fff;
 }
@@ -65,4 +63,24 @@
   letter-spacing: -0.01em;
   text-align: left;
   color: #646464;
+}
+
+@media screen and (max-width: 1000px) {
+  .service__wrapper {
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+  .service {
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin: auto;
+  }
+  .services {
+    text-align: center;
+  }
+  .services h3 {
+    text-align: center;
+  }
 }
