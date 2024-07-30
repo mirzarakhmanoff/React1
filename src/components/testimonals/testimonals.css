@@ -1,0 +1,43 @@
+.test__wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.test__wrapper h6 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.test__wrapper h6 span {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: #646464;
+}
+.test__wrapper h3 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  text-align: center;
+  color: #212121;
+}
+.comments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 50px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.comment {
+  width: 450px;
+  border-radius: 70px 0px 70px 0px;
+  box-shadow: 7px 7px 30px 5px #42605426;
+  padding: 30px;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  gap: 50px;
+}
+.left {
+  max-width: 606px;
+}
+.left span {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.24px;
+  text-align: left;
+  color: #646464;
+}
+
+.left h1 {
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 78px;
+  text-align: left;
+}
+.left p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #646464;
+}
+.contact__btn {
+  border-radius: 15px 0 15px 0;
+  background-color: #37806b;
+  padding: 5px 15px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+.right {
+  width: 716px;
+  height: 500px;
+  border-radius: 120px 0 120px 0;
+  background-image: url(../assets/hero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  gap: 50px;
+}
+.left {
+  max-width: 606px;
+}
+.left span {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #646464;
+}
+
+.left h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57px;
+  text-align: left;
+  color: #212121;
+}
+.left p {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #646464;
+}
+.contact__btn {
+  border-radius: 15px 0 15px 0;
+  background-color: #37806b;
+  padding: 5px 15px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+  color: #fff;
+  text-decoration: none;
+}
+.about__img {
+  width: 716px;
+  height: 500px;
+  border-radius: 120px 0 120px 0;
+  overflow: hidden;
+  background-image: url(../assets/aboutUs.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

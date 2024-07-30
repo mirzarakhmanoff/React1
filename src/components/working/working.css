@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  gap: 50px;
+}
+.left {
+  max-width: 606px;
+}
+.left__work img {
+  width: 100px;
+}
+.work__img {
+  width: 716px;
+  height: 500px;
+  border-radius: 120px 0 120px 0;
+  overflow: hidden;
+  background-image: url(../assets/work.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
